@@ -1,6 +1,6 @@
 const { expect, browser, $ } = require('@wdio/globals')
 
-describe('Login page testing', () => {
+describe('wdio commands', () => {
     it('AT1 - Login with the correct credential', async () => {
         await browser.url(`https://the-internet.herokuapp.com/login`)// open url
         await browser.pause(2000)
