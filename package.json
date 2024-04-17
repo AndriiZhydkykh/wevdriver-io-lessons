@@ -9,6 +9,6 @@
     "@wdio/spec-reporter": "^8.32.4"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "tests": "wdio run ./wdio.conf.js"
   }
 }
